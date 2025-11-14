@@ -1,0 +1,45 @@
+.navbar {
+    width: 100%;
+    padding: 20px 6%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e5e5
+}
+
+.navbarLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarLeft ul {
+    display: flex;  
+    flex-direction: row;
+    font-size: 14px;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.navbarLeft h1 {
+    letter-spacing: 1.5px;
+    color: red;
+    padding: 0 20px 0 0;
+}
+
+.navbarRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-betwe;
+    gap: 20px;
+}
+
+.navbarProfile {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
