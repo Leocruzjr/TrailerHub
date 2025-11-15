@@ -1,0 +1,28 @@
+.hero {
+    position: relative;
+}
+
+.bannerImg {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.heroCaption {
+    position:absolute;
+    width: 50%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.heroCaption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.captionImg {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 10px;
+}
