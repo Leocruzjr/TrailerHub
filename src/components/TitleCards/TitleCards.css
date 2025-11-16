@@ -1,0 +1,19 @@
+.titleCards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.titleCards h2 {
+    margin-bottom: 8px;
+}
+
+.cardList {
+    display: flex;
+    gap: 10px;
+}
+
+.cardList img {
+    width: 240px;
+    border-radius: 4px;
+    cursor: pointer;;
+}

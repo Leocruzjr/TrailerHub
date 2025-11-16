@@ -6,13 +6,16 @@
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+    mask-image: linear-gradient(to top, transparent, black 50%);
+    -weblit-mask-image: linear-gradient(to top, transparent, black 50%);
 }
 
 .heroCaption {
-    position:absolute;
-    width: 50%;
+    position: absolute;
+    width: 100%;
     padding-left: 6%;
     bottom: 0;
+    margin-bottom: 5%;
 }
 
 .heroCaption p {
@@ -24,5 +27,42 @@
 .captionImg {
     width: 90%;
     max-width: 420px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.heroBtns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.heroBtns .btn img {
+    width: 25px;
+}
+
+.heroBtns .btn {
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heroBtns .btn:hover{
+    background: #ffffffbf;
+}
+
+.heroBtns .btn.darkBtn {
+    background: #6d6d6eb3;
+    color: #fff;
+}
+
+.heroBtns .btn.darkBtn:hover {
+    background: #6d6d6e66;
 }
