@@ -3,6 +3,7 @@ import React from 'react'
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
 import TitleCards from '../../components/TitleCards/TitleCards'
+import Footer from '../../components/Footer/Footer'
 
 import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
@@ -31,9 +32,16 @@ const Home = () => {
               <button className='btn'><img src={play_icon} alt='play icon' />Play</button>
               <button className='btn darkBtn'><img src={info_icon} alt='info icon' />More Info</button>
             </div>
+            <TitleCards />
           </div>
         </div>
-        <TitleCards />
+        <div className="moreCards">
+          <TitleCards title={"Blockbuster Movies"}/>
+          <TitleCards title={"Only on TrailerHUB"}/>
+          <TitleCards title={"Upcoming"}/>
+          <TitleCards title={"Top picks for you"}/>
+        </div>
+        <Footer />
     </div>
   )
 }
