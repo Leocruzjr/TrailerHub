@@ -33,7 +33,7 @@ useEffect(()=>{
 
   return (
     <div className= 'player'>
-      <img src={back_arrow_icon} alt= "icon of back arrow" onClick={()=>{navigate(-2)}}/>
+      <img src={back_arrow_icon} alt= "icon of back arrow" onClick={()=>{navigate('/')}}/>
       <iframe
       width= '90%' 
       height= '90%'
