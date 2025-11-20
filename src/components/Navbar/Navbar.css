@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
-    padding: 20px 6%;
-    position: absolute;
+    padding: 15px 6%;
+    position: fixed;
     display: flex;
     font-size: 14px;
     justify-content: space-between;
@@ -20,6 +20,7 @@
     display: flex;  
     gap: 20px;
     list-style: none;
+    font-size: 16px;
 }
 
 .navbarLeft ul li {
@@ -79,6 +80,8 @@
     cursor: pointer;
 }
 
-
+.navDark {
+    background-color: #141414;
+}
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Navbar.css'
 import search_icon from '../../assets/search_icon.svg'
 import bell_icon from '../../assets/bell_icon.svg'
@@ -7,8 +7,21 @@ import arrowdown_icon from '../../assets/arrowdown_icon.svg'
 import logo from '../../assets/logo.png'
 
 const Navbar = () => {
+
+    const navRef = useRef();
+
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=> {
+            if (window.scrollY >= 80){
+                navRef.current.classList.add('navDark')
+            } else {
+                navRef.current.classList.remove('navDark')
+            }
+        })
+    })
+
   return (
-    <div className='navbar'>
+    <div ref={navRef} className='navbar'>
         <div className='navbarLeft'>
             <img src={logo} alt='picture of logo "TrailerHUB"' /> 
             <ul>
