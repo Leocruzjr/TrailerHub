@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
 import { login, signup } from "../../firebase"
+import { Navigate } from 'react-router-dom'
+import netflix_spinner from '../../assets/netflix_spinner.gif'
 
 const Login = () => {
 
@@ -9,25 +11,28 @@ const Login = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const user_auth = async (event)=>{
     event.preventDefault();
+    setLoading(true);
     if(signState==="Sign In"){
       await login(email, password);
     }else{
       await signup(name, email, password);
     }
+    setLoading(false);
   }
 
   return (
+    loading?<div className="loginSpinner">
+      <img src={netflix_spinner} alt='' />
+    </div>:
     <div className='login'>
       <img src={logo} className='loginLogo' alt='' />
       <div className="loginForm">
          <h1>{signState}</h1>
          <form>
-          {/*If useState equals "sign up"
-           then name input field will show, 
-           else, will remain empty*/}
           {signState==='Sign Up' ? 
           <input value={name} onChange={(e)=>{setName(e.target.value)}} 
             type='text' 
