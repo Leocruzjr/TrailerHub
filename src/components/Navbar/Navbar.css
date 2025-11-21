@@ -84,4 +84,32 @@
     background-color: #141414;
 }
 
+@media (max-width: 800px) {
+    .navbar {
+        padding: 20px 5%;
+    }
+    .navbarLeft ul{
+        display: none;
+    }
+    .navbar img {
+        height: 40px;
+    }
+    .navbarLeft img {
+        height: 50px;
+    }
+}
 
+@media (max-width: 500px) {
+    .navbar {
+        padding: 20px 7%;
+    }
+    .navbar img {
+        height: 40px;
+    }
+    .navbarLeft img {
+        height: 50px;
+    }
+    .navbarRight {
+        gap: 10px;
+    }
+}
