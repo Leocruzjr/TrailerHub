@@ -57,15 +57,14 @@ Component-driven design to promote reusability and maintainability
 ______________________________________________________________________________________________
 
 🧰 Tech Stack
-Category	Technology
-Frontend	React
-Build Tool	Vite
-Routing	react-router-dom
-Authentication	Firebase Auth
-Database	Firebase Firestore
-Notifications	react-toastify
-Styling	CSS
-Version Control	Git & GitHub
+React
+Vite
+react-router-dom
+Firebase Auth
+Firebase Firestore
+react-toastify
+CSS
+Git & GitHub
 
 ______________________________________________________________________________________________
 
