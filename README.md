@@ -116,19 +116,30 @@ ________________________________________________________________________________
 🖼️ Screenshots
 
 📸 User Login / Signup
+
 ![afe5c710b1873c876904fcc8a8ed2701](https://github.com/user-attachments/assets/41b25d51-c49f-4551-94aa-ba45e0fbf7df)
 
+
 📸 Home / Browse Page
+
 ![e11a7b3a1fc22f2edcc8607de91673c0](https://github.com/user-attachments/assets/f34552e6-5dcf-4cc9-8ac6-cec95b86df2e)
+
 ![e75cfd0255fb8df1f6963b139f9ffb89](https://github.com/user-attachments/assets/788ed51c-5ddc-4a5f-9b71-e9725d4eafd1)
 
+
 📸 Movie Trailer Modal
+
 ![2cda13b105d665fd81d78100044fffc6](https://github.com/user-attachments/assets/1b72c0dc-44b5-46d0-8783-93d815ef639b)
 
+
 📸 Responsive Mobile Layout
+
 <img width="425" height="927" alt="2e6cb1e25368815562be7a0f246aa7c7" src="https://github.com/user-attachments/assets/f65ab9ac-2d4a-47ca-900f-3cd7689af769" />
+
 <img width="424" height="925" alt="2c49402552b072b5504ce4ff4a6ac786" src="https://github.com/user-attachments/assets/4296b927-83d2-434c-8bae-8bc4986843eb" />
+
 <img width="426" height="928" alt="2cca11a303577295079d4679de2f820d" src="https://github.com/user-attachments/assets/86391636-5dc9-47f2-84ba-e4434deecaf2" />
+
 <img width="430" height="928" alt="5880d11477c9b7e0a7f6a14af77d155b" src="https://github.com/user-attachments/assets/3a95d43b-bfda-4695-9659-af0fc3755422" />
 
 
